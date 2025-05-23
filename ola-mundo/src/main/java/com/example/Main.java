@@ -1,11 +1,8 @@
 package com.example;
 
-import java.util.Random;
-import java.util.Scanner;
-
 public class Main {
 
-    public static void main(String[] args) {
+    /* public static void main(String[] args) {
         String nome = "World";
         Integer[] labLista = {41, 42, 43};
         Random test = new Random();
@@ -20,5 +17,11 @@ public class Main {
         }
 
         System.out.println("Hello " + nome + "! Welcome to lab " + labNumero);
-    }
+    } */
+   public static void main(String[] args) {
+       int[] lista = {1,2,3};
+       for (int i = 0; i < 3; i++) {
+           System.out.println(lista[i]);
+       }
+   }
 }

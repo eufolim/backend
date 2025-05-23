@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-GeradorViagenApplication<gerador_viagen>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.viagen.gerador_viagen.GeradorViagenApplication",
+            "projectName": "gerador_viagen",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
